@@ -1,0 +1,26 @@
+$primary: #fa0;
+
+// @font-face {
+//   font-family: 'MyFont';
+//   src: url('~assets/FontsFree-Net-HelveticaNeueBold.ttf');
+// }
+// body {
+//   font-family: 'MyFont';
+// }
+
+p {
+  color: $primary;
+  font-size: 18px;
+}
+
+.header {
+  background-color: #faf;
+}
+
+.box {
+  width: 150px;
+  height: 300px;
+  background-image: url('~image.png');
+  background-size: cover;
+  background-position: center center;
+}
